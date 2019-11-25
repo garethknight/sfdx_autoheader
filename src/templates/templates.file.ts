@@ -26,9 +26,9 @@ export function getFileHeaderFromTemplate(
 ${lineStart} @File Name          : ${fileName}
 ${lineStart} @Description        : 
 ${lineStart} @Author             : ${helper.getConfiguredUsername()}
-${lineStart} @Group              : 
 ${lineStart} @Last Modified By   : ${helper.getConfiguredUsername()}
 ${lineStart} @Last Modified On   : ${helper.getHeaderFormattedDateTime()}
+${lineStart} @Disclaimer         : ${helper.getDisclaimer()}
 ${lineStart} @Modification Log   : 
 ${lineStart} Ver       Date            Author      		    Modification
 ${lineStart} 1.0    ${helper.getHeaderFormattedDate()}   ${helper.getConfiguredUsername()}     Initial Version

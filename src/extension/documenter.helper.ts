@@ -26,5 +26,11 @@ export default {
     return workspace
       .getConfiguration("SFDoc")
       .get("username", "phUser@phDomain.com");
+  },
+
+  getDisclaimer(): string {
+    return workspace
+      .getConfiguration("SFDoc")
+      .get("disclaimer", "a local disclaimer");
   }
 };

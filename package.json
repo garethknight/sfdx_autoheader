@@ -5,12 +5,6 @@
   "version": "0.6.1",
   "publisher": "HugoOM",
   "license": "MIT",
-  "badges": [
-    {
-      "url": "https://dev.azure.com/HugoOM/Salesforce%20Documenter/_apis/build/status/HugoOM.sfdx_autoheader?branchName=master",
-      "description": "Azure Pipelines Build Status for Master Branch (Current Release)"
-    }
-  ],
   "preview": true,
   "repository": {
     "type": "git",
@@ -132,6 +126,11 @@
           "type": "string",
           "default": "ChangeMeIn@UserSettingsUnder.SFDoc",
           "description": "Sets the File & Method Header Username"
+        },
+        "SFDoc.disclaimer": {
+          "type": "string",
+          "default": "Update from settings.json for longer disclaimers",
+          "description": "Code disclaimer used for any SE created code"
         },
         "SFDoc.EnableForApex": {
           "type": "boolean",
