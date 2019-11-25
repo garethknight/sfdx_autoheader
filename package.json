@@ -127,11 +127,6 @@
           "default": "ChangeMeIn@UserSettingsUnder.SFDoc",
           "description": "Sets the File & Method Header Username"
         },
-        "SFDoc.disclaimer": {
-          "type": "string",
-          "default": "Update from settings.json for longer disclaimers",
-          "description": "Code disclaimer used for any SE created code"
-        },
         "SFDoc.EnableForApex": {
           "type": "boolean",
           "default": true,
