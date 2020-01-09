@@ -23,7 +23,8 @@ Through these means, code becomes easier to understand, maintain, and evolve.
 # Local Packing and Install Instructions
 1. Update package.json file with new version number
 2. run vsce package in the local project directory
-3. Copy package .vsix file from local project directory to .vscode/extensions
+3. run code --install-extension ".vsix file name" to install the extension locally
+
 
 # Features
 
