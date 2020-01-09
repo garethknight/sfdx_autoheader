@@ -1,21 +1,29 @@
-# ️️☁️ Salesforce Documenter ~ Beta ☁️
+# SFDX Autoheader ~ Alpha
 
-[![Build Status](https://dev.azure.com/HugoOM/Salesforce%20Documenter/_apis/build/status/HugoOM.sfdx_autoheader?branchName=master)](https://dev.azure.com/HugoOM/Salesforce%20Documenter/_build/latest?definitionId=2&branchName=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/64c16d2180411eb66da5/maintainability)](https://codeclimate.com/github/HugoOM/sfdx_autoheader/maintainability)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![marketplace](https://vsmarketplacebadge.apphb.com/version/hugoom.sfdx-autoheader.svg?color=blue&style=?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=HugoOM.sfdx-autoheader)
+
 
 ## **Important**
+
+### Based on ️️☁️ Salesforce Documenter ~ Beta ☁️
 
 ### _This extension depends on the official [Salesforce Extensions for VSCode](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode) for language support._
 
 # Summary
+This project was extended by Gareth in order to insert standard Salesforce SE Disclaimer, please see below for local packaging and install instructions
 
 Salesforce Documenter aims at facilitating proper and structured code documenting for Salesforce-related files, by automating related tasks such as File Header Insertion & Update, as well as Method Header insertion.
 
 Salesforce Documenter can be adopted as a project-wide and/or team-wide standard, in an effort to encourage and eventually enforce proper code documenting.
 
 Through these means, code becomes easier to understand, maintain, and evolve.
+
+# Local Packing and Install Instructions
+1. Update package.json file with new version number
+2. run vsce package in the local project directory
+3. Copy package .vsix file from local project directory to .vscode/extensions
 
 # Features
 

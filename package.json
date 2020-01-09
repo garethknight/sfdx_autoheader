@@ -1,14 +1,14 @@
 {
   "name": "sfdx-autoheader",
-  "displayName": "Salesforce Documenter",
+  "displayName": "Salesforce AutoHeader",
   "description": "Automated Code Documentation Generation for Salesforce",
-  "version": "0.6.1",
-  "publisher": "HugoOM",
+  "version": "0.7.0",
+  "publisher": "GarethK",
   "license": "MIT",
   "preview": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/HugoOM/sfdx_autoheader"
+    "url": "git@github.com:garethknight/sfdx_autoheader.git"
   },
   "engines": {
     "vscode": "^1.28.0"
