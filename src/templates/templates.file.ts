@@ -23,7 +23,7 @@ export function getFileHeaderFromTemplate(
   }
 
   return `${blockStart}
-${lineStart} Copyright (c) 2019 salesforce.com, inc.
+${lineStart} Copyright (c) 2020 salesforce.com, inc.
 ${lineStart} All rights reserved.
 ${lineStart} 
 ${lineStart} Redistribution and use in source and binary forms, with or without

@@ -15,11 +15,11 @@ export default {
   apexAnnotationsRegex: /^\s*@\s*\D*/,
 
   getHeaderFormattedDateTime(): string {
-    return new Date().toLocaleString();
+    return new Date().toLocaleString("en-NZ");
   },
 
   getHeaderFormattedDate(): string {
-    return new Date().toLocaleDateString();
+    return new Date().toLocaleDateString("en-NZ");
   },
 
   getConfiguredUsername(): string {
